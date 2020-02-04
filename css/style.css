@@ -1,0 +1,60 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; 
+    background: rgba(255, 176, 255, 0.377);
+    overflow-x: hidden;
+}
+
+.landing__background{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: url('/img/landscape.jpg') no-repeat 50% 50%;
+    top: 0;
+    display: table;
+    background-size: cover;
+}
+.landing__background .inside__landing{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.landing__content{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.landing__content h1{
+    font-family: 'Century Gothic', sans-serif;
+    color: #f9f3f4;
+    font-size: 3em;
+    text-shadow: 0 0 300px #000;
+}
+.landing__content .landing__button{
+    border-radius: 9px;
+    color: #f9f3f4;
+    text-decoration: none;
+    font-family: 'Century Gothic', sans-serif;
+    border: 3px solid;
+    padding: 7px 13px;
+    font-weight: bold;
+}
+.landing__content .landing__button:hover{
+    color: rgb(216, 114, 230);
+    transition: all .2s ease-in-out;
+}
+
+p{
+    font-size: 1.6em;
+    line-height: 200%;
+    text-align: justify;
+    margin: 3%;
+    font-family: sans-serif;
+}
+#btnScrollToTop{
+    display: none;
+    transition: display 2s ease-in-out;
+}
