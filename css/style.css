@@ -1,15 +1,15 @@
 html, body{
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%; 
+    /*width: 100%;
+    height: 100%; */
     background: rgba(255, 176, 255, 0.377);
     overflow-x: hidden;
 }
 
 .landing__background{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     margin: auto;
     background: url('/img/landscape.jpg') no-repeat 50% 50%;
     top: 0;
